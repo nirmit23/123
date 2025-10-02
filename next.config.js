@@ -4,8 +4,9 @@ const nextConfig = {
     images: {
       unoptimized: true,
     },
-    basePath: '/123',      // use your repo name here
-    assetPrefix: '/123/',  // prefix assets so CSS/JS load correctly
+    basePath: '/123',       // must match your repo name
+    assetPrefix: '/123/',   // ensures assets load from the right path
+    trailingSlash: true,    // <-- important for GitHub Pages
   };
   
   export default nextConfig;
