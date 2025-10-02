@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export', // enables static export (creates "out" folder)
+    output: 'export',
     images: {
-      unoptimized: true, // needed since GitHub Pages doesn't support Next.js image optimizer
+      unoptimized: true,
     },
-    basePath: '/123', // replace "123" with your repo name
-    assetPrefix: '/123/', // ensures assets load from correct path
+    basePath: '/123',      // use your repo name here
+    assetPrefix: '/123/',  // prefix assets so CSS/JS load correctly
   };
   
   export default nextConfig;
