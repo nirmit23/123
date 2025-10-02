@@ -1,7 +1,7 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
-  output: 'export',   // enables static export
-  basePath: '/123',   // your repo name
+  output: 'export',
+  basePath: '/123',   // repo name
   assetPrefix: isProd ? '/123/' : '',
 };
