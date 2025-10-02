@@ -1,7 +1,7 @@
 # dependencies
 node_modules/
 
-# build output
+# production build outputs
 .next/
 out/
 
@@ -10,12 +10,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# OS files
+# system files
 .DS_Store
-
-# env files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
