@@ -25,10 +25,10 @@ export default function About() {
                 <p>Creating solutions that matter</p>
               </div>
             </div>
+            
           </div>
         </div>
       </section>
     );
   }
 
-  
