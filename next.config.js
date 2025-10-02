@@ -1,11 +1,7 @@
-// next.config.js
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    output: 'export',
-    basePath: '/123',
-    assetPrefix: '/123/',
-    images: { unoptimized: true },
-  };
-  
-  module.exports = nextConfig;
-  
+const isProd = process.env.NODE_ENV === 'production';
+
+module.exports = {
+  output: 'export',   // enables static export
+  basePath: '/123',   // your repo name
+  assetPrefix: isProd ? '/123/' : '',
+};
